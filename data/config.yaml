@@ -1,0 +1,7 @@
+-
+  paics_path: D:\PAICSLPMClient\
+  project_path: I:\bd\AirtestIDE-win-1.2.13\paics\autopaics
+  video_path: D:\测试一致性视频\
+  videoJsonList_path: D:\PAICSLPMClient\VideoPathList.json
+  col1_name: video_name
+  col2_name: video_length

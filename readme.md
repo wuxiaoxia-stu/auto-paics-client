@@ -1,0 +1,11 @@
+utils：封装了一些通用函数，如获取图片地址、上滑、翻页等
+driver：设置连接的测试设备
+page：按页面定义，用来封装获取页面元素
+report：用来放airtest的测试报告及截图数据
+resources：airtest框架可以使用图像识别进行自动化，存放测试图片
+testcase：按页面定义，用来管理case
+conftest：配置装饰器，用于执行特定函数
+run：用于启动整个项目
+整个框架就是基于Pytest的自动化管理用例，Airtest的2大定位框架进行搭建。
+Airtest：对公众号、小程序的元素控件进行抓取，可使用Poco定位或Airtest图像识别进行
+Pytest：对整体用例集、用例进行管理；可单条，批量执行，分类执行等等。
